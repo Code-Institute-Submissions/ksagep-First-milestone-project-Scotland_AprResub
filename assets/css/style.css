@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto:wght@300&display=swap');
 
 body{
-    font-family: Indie Flower, sans serif;
+    font-family: Josefin+Sans;
     font-weight:400;
     color: #3a3a3a;
 } 
@@ -9,15 +9,15 @@ body{
 /* headings and logo */  
 
 h1, h2 {
-    font-family: Lobster;
+    font-family: Roboto;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     color: #252525;
 }
 
 #logo {
     font-size: 250%;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 /* navigation links */
@@ -80,19 +80,18 @@ h1, h2 {
 }
 
 #cover-text {
-    color: #fff;
+    color: #0a0a0a;
     font-size: 100%;
-    font-family: Indie Flower, sans serif;
+    font-family: Josefin+Sans;
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    width: 400px;
-    height: 200px;
+    width: 900px;
+    height: 100px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 25px;
 
-    background-color: rgba(0,0,255,.7);
+    background-color: rgba(255, 255, 255, 0.5);
    
     bottom: 30px;
     right: 150px;
@@ -100,3 +99,23 @@ h1, h2 {
     position: absolute;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network > li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 160%;
+    margin:1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
