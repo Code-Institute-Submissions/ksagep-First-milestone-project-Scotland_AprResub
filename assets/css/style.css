@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Raleway&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Raleway&family=Source+Serif+4&family=Dancing+Script:wght@700&family=Tourney:wght@700&display=swap');
 
 body{
     font-family: Josefin+Sans;
@@ -8,9 +8,17 @@ body{
 
 /* headings and logo */  
 
-h1, h2 {
-    font-family: Montserrat;
-    font-weight:400;
+h1 {
+    font-family: Tourney;
+    font-weight:700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #252525;
+}
+
+h2 {
+    font-family: Dancing+Script;
+    font-weight:700;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #252525;
@@ -123,15 +131,18 @@ footer {
     color: #3a3a3a;
 }
 
-/* taste-gallery */
-
-#pictures {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+.food {
+    font-size: 150%;
+    margin:5px;
+    padding: 5px;
+    color: #3a3a3a;
+    text-align: left;
 }
 
-#pictures > img {
-    width: 100%;
+.drinks {
+    font-size: 150%;
+    margin:5px;
+    padding: 5px;
+    color: #3a3a3a;
+    text-align: left;
 }
