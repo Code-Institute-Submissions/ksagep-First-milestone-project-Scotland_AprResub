@@ -119,6 +119,7 @@ footer {
 
 .social-network {
     text-align: center;
+    color: #e20f0f;
 }
 
 .social-network > li {
@@ -147,7 +148,7 @@ footer {
     margin:5px;
     padding: 40px;
     left: 0;
-    color: #3a3a3a;
+    color: #0a0a0a;
     position: absolute;
     text-align: center; 
 }
@@ -156,6 +157,14 @@ footer {
     font-size: 150%;
     margin:5px;
     padding: 5px;
-    color: #3a3a3a;
+    color: #0a0a0a;
     text-align: center; 
+}
+
+.enjoy {
+    font-size: 150%;
+    margin:5px;
+    padding: 5px;
+    color: #0a0a0a;
+    text-align: center;
 }
