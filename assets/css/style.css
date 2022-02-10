@@ -3,8 +3,8 @@
 body{
     font-family: Josefin+Sans;
     font-weight:300;
-    color: #3a3a3a;
-    background-color: aquamarine;
+    color: #0a0a0a;
+    background-color: beige;
 } 
 
 /* headings and logo */  
@@ -14,7 +14,7 @@ h1 {
     font-weight:700;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #252525;
+    color: #0a0a0a;
 }
 
 h2 {
@@ -22,7 +22,8 @@ h2 {
     font-weight:700;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #252525;
+    color: #0a0a0a;
+    display: inline;
 }
 
 #logo {
@@ -66,13 +67,12 @@ h2 {
     position: relative;
 }
 
-
 #front-image {
     height: 600px;
     width:100%;
     background: url('../images/front-image-m.jpg') no-repeat center center;
 
-    /* animates zoom effect on loading page */
+/* animates zoom effect on loading page */
     animation-name: front-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
@@ -114,7 +114,7 @@ h2 {
 
 footer {
     height: 150px;
-    
+    margin: 50px;    
 }
 
 .social-network {
@@ -129,23 +129,27 @@ footer {
     font-size: 160%;
     margin:1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #e20f0f;
 }
 
 .food {
     font-size: 150%;
     margin:5px;
-    padding: 5px;
-    color: #3a3a3a;
-    text-align: center;
+    padding: 40px;
+    right: 50px;
+    color: #0a0a0a;
+    position: absolute;
+    text-align: center; 
 }
 
 .drinks {
     font-size: 150%;
     margin:5px;
-    padding: 5px;
+    padding: 40px;
+    left: 0;
     color: #3a3a3a;
-    text-align: center;
+    position: absolute;
+    text-align: center; 
 }
 
 .hike {
