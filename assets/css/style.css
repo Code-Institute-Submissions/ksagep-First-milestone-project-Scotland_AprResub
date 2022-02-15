@@ -124,13 +124,32 @@ h2 {
 
 @media screen and (max-width: 950px) {
     
-    #menu:{
+    #menu {
         clear: left;
         float: left;
         margin-left: 20px;
         margin-bottom: 15px;
         line-height: 15px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #front-image {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #drinks, #food {
+        width: 100%;
+        clear: both;
+        height: 150%;
+        padding: 0;
+    }
+
+
 }
 
 /* footer */
