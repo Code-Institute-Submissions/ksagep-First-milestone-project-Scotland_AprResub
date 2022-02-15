@@ -110,6 +110,17 @@ h2 {
     position: absolute;
 }
 
+/* for larger and medium screen size from 1200px and down */
+
+@media screen and (max-width: 1200px) {
+    #front-image {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
 /* footer */
 
 footer {
@@ -131,6 +142,8 @@ footer {
     padding: 5%;
     color: #e20f0f;
 }
+
+/* contains of menu buttons */
 
 .food {
     font-size: 150%;
