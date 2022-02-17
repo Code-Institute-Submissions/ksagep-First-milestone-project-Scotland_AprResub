@@ -40,18 +40,22 @@ h2 {
     padding-top: 10px;
 }
 
+p {
+    font-size: 24px;
+}
+
 /* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    margin-right: 350px;
+    margin-right: 360px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 40px;    
 }
 
 #menu a {
@@ -94,7 +98,7 @@ h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.15);
+        transform: scale(1.1);
     }
 }
 
@@ -119,46 +123,88 @@ h2 {
     position: absolute;
 }
 
+/* media queries */
 /* for larger and medium screen size from 1200px and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     #front-image {
         width: 65%;
-        height: 1200px;
+        height: 900px;
         margin: 0 auto;
-    }
-}
-
-/* for medium screen sizes from 950 px and down */
-
-@media screen and (max-width: 950px) {
-    
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;
-        margin-bottom: 15px;
-        line-height: 15px;
     }
 
     #cover-text {
-        left: 0;
+        text-align: center;
+        padding-right: 30px;
+        width: 65%;
+        height: 400px;
+        background-color: rgba(255, 255, 255, 0.5);
+        left: 50px;
     }
 
+    #menu {
+        text-align: center;
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #drinks {
+        text-align: center;
+        clear: both;
+        padding: 0;
+        float: left;
+    }
+
+    #food {
+        text-align: center;
+        clear: both;
+        padding: 0;
+        float: left;
+    }
+}
+
+/* for medium screen sizes from 768 px and down */
+
+@media screen and (max-width: 400px) {
+    
     #front-image {
-        width: 90%;
-        height: 1200px;
+        width: 65%;
+        height: 900px;
         margin: 0 auto;
     }
 
-    #drinks, #food {
-        width: 100%;
-        clear: both;
-        height: 150%;
-        padding: 0;
+    #cover-text {
+        text-align: center;
+        width: 65%;
+        height: 400px;
+        padding-left: 150px;
     }
 
+    #menu {
+        text-align: center;
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
+    #drinks {
+        text-align: center;
+        clear: both;
+        padding: 0;
+        float: left;
+    }
+
+    #food {
+        text-align: center;
+        clear: both;
+        padding: 0;
+        float: left;
+    }
 }
 
 /* footer */
@@ -174,6 +220,10 @@ footer p {
 
 .social-network {
     text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .social-network > li {
@@ -182,7 +232,7 @@ footer p {
 
 .social-network i {
     font-size: 160%;
-    margin:1%;
+    margin: 1%;
     padding: 5%;
     color: #0a0a0a;
 }
