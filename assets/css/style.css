@@ -21,6 +21,7 @@ body {
 h1 {
     font-family: Tourney;
     font-weight:700;
+    font-size: large;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #0a0a0a;
@@ -36,12 +37,12 @@ h2 {
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 400%;
     padding-top: 10px;
 }
 
 p {
-    font-size: 24px;
+    font-size: 14px;
 }
 
 /* navigation links */
@@ -50,6 +51,7 @@ p {
     font-size: 110%;
     letter-spacing: 4px;
     margin-right: 360px;
+    padding-bottom: 5px;
 }
 
 #menu li {
@@ -129,7 +131,7 @@ p {
 @media screen and (max-width: 768px) {
     #front-image {
         width: 65%;
-        height: 900px;
+        height: auto;
         margin: 0 auto;
     }
 
@@ -137,7 +139,7 @@ p {
         text-align: center;
         padding-right: 30px;
         width: 65%;
-        height: 400px;
+        height: auto;
         background-color: rgba(255, 255, 255, 0.5);
         left: 50px;
     }
@@ -172,7 +174,7 @@ p {
     
     #front-image {
         width: 65%;
-        height: 900px;
+        height: auto;
         margin: 0 auto;
     }
 
