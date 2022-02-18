@@ -1,3 +1,15 @@
+# Scotland - Taste it! Hike it! Enjoy it!
+
+I was lucky because I could visit this great country with my friends some years ago. This webpage contains information which most of them based on own experience.These information would help for tourists who will visit Scotland.
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome ksagep,
