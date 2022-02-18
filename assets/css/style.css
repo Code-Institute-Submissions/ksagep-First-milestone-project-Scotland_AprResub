@@ -37,13 +37,10 @@ h2 {
 }
 
 #logo {
-    font-size: 400%;
+    font-size: 200%;
     padding-top: 10px;
 }
 
-p {
-    font-size: 14px;
-}
 
 /* navigation links */
 
@@ -153,19 +150,13 @@ p {
         padding-right: 0;
     }
 
-    #drinks {
+    #drinks and food{
         text-align: center;
         clear: both;
         padding: 0;
-        float: left;
+        
     }
 
-    #food {
-        text-align: center;
-        clear: both;
-        padding: 0;
-        float: left;
-    }
 }
 
 /* for medium screen sizes from 768 px and down */
@@ -194,19 +185,13 @@ p {
         padding-right: 0;
     }
 
-    #drinks {
+    #drinks and food {
         text-align: center;
         clear: both;
         padding: 0;
-        float: left;
+        
     }
 
-    #food {
-        text-align: center;
-        clear: both;
-        padding: 0;
-        float: left;
-    }
 }
 
 /* footer */
