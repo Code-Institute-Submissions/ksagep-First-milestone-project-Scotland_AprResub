@@ -150,11 +150,13 @@ h2 {
         padding-right: 0;
     }
 
-    #drinks and food{
+    #drinks-and-food{
         text-align: center;
         clear: both;
         padding: 0;
-        
+        font-size: 150%;
+        margin:5px;        
+        color: #0a0a0a;
     }
 
 }
@@ -185,11 +187,13 @@ h2 {
         padding-right: 0;
     }
 
-    #drinks and food {
+    #drinks-and-food {
         text-align: center;
         clear: both;
         padding: 0;
-        
+        font-size: 150%;
+        margin:5px;        
+        color: #0a0a0a;         
     }
 
 }
@@ -226,24 +230,12 @@ footer p {
 
 /* contains of menu buttons */
 
-.food {
+.drinks-and-food {
     font-size: 150%;
     margin:5px;
-    padding: 40px;
-    right: 50px;
+    padding: 5px;
     color: #0a0a0a;
-    position: absolute;
-    text-align: center; 
-}
-
-.drinks {
-    font-size: 150%;
-    margin:5px;
-    padding: 40px;
-    left: 0;
-    color: #0a0a0a;
-    position: absolute;
-    text-align: center; 
+    text-align: center;
 }
 
 .hike {
