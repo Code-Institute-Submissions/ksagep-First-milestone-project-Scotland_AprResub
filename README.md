@@ -2,11 +2,11 @@
 
 I took the advice of my mentor and the teachers of the Code Institute's Diploma in Software Development Course and I have created a website which I liked and enjoyed the development of it. I was lucky because I could visit this great country with my friends some years ago.
 
-For link to this website click [Here](https://8000-ksagep-firstmilestonep-0iaivwsdozc.ws-eu33.gitpod.io/enjoy.html).
+For link to this website click [Here](https://ksagep.github.io/First-milestone-project-Scotland/).
 
 Design has been focused to *Desktop first* and *Responsive*.
 
-pic of responsivity
+/assets/images/screenshot-m.png
 
 ## Who is this website for?
 
@@ -97,7 +97,7 @@ I used two types of fonts what I downloaded from the Google Fonts families:
 
 ### Browser testing
 
-Website was tested in Google Chrome and Safari. On each browser this website works properly (funkcionality, visuality).
+Website was tested in Google Chrome and Safari. On each browser this website works properly (functionality, visuality).
 
 It was tested on Apple iPhone and Samsung A6 mobile phones and the website worked on these type of phones.
 
