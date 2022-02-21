@@ -6,7 +6,7 @@ For link to this website click [Here](https://ksagep.github.io/First-milestone-p
 
 Design has been focused to *Desktop first* and *Responsive*.
 
-/assets/images/screenshot-m.png
+/../assets/images/screenshot-m.png
 
 ## Who is this website for?
 
