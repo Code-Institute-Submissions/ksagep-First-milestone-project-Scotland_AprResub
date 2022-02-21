@@ -27,7 +27,7 @@ This page was created in a simple way. The information is clear and serves to he
 In this project You can find the following features:
 * Four different pages
 * Home page contains a picture what I took at the 'Queen's View' and three other buttons to other pages
-* Short description of the pages
+* Under the logo there is a short description of the pages
 
 ### Structure Plane
 
@@ -120,5 +120,21 @@ I used Google Chrome Dev Tools for this exercise. I tested for mobile and deskto
 
 ## Version control
 
-Git and GitHub
+I used two repositories during the development: GitPod for local repository and GitHub for remote or background repository. 
 
+I managed the versions with the followung process:
+- I created a repository in GitHub
+- I opened and developped the repository in GitPod
+- I created and developped the files and folders in GitPod
+- I saved and pushed my works to GitHub repository:
+    1. git add . - adding work to git
+    2. git commit -m "Commit message" - to commit the stage of work
+    3. git push - to update my work in GitHub
+
+## Publishing
+
+The steps of the publishing on the GitHub were as follow:
+    
+    1. **"Settings"** on the repository
+    2. **"Source"** of "GitHub Pages" selected *master for Branch* and saved it
+    3. The website was published on GitHub Pages and the link was provided in the same section.
