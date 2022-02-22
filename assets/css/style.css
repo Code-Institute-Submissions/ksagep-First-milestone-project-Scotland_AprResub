@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500;700&family=Oswald:wght@500&display=swap')
 
 #basic {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 500;
     color: black;
     background-color: beige;
@@ -19,7 +19,7 @@
 /* headings and logo */  
 
 h1 {
-    font-family: Tourney;
+    font-family: "Tourney";
     font-weight:700;
     font-size: large;
     text-transform: uppercase;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    font-family: Tourney;
+    font-family: "Tourney";
     font-weight:700;
     text-transform: uppercase;
     letter-spacing: 6px;

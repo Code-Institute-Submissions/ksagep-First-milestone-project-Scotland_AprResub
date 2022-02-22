@@ -97,9 +97,9 @@ I used two types of fonts what I downloaded from the Google Fonts families:
 
 ### Browser testing
 
-Website was tested in Google Chrome and Safari. On each browser this website works properly (functionality, visuality).
+Website was tested in Google Chrome, Opera, Microsoft Edge and Safari. On each browser this website works properly (functionality, visuality).
 
-It was tested on Apple iPhone and Samsung A6 mobile phones and the website worked on these type of phones.
+It was tested on  Macbook Pro, Apple iPhone 13 Pro and Samsung A6 and A10 mobile phones and the website worked on these type of devices.
 
 ### Validators
 
