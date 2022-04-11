@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500;700&family=Oswald:wght@500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500;700&family=Oswald:wght@500&display=swap');
 
-#basic {
+.basic {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     color: black;
@@ -40,6 +40,7 @@ h2 {
 #logo {
     font-size: 200%;
     padding-top: 10px;
+    text-align: center;
 }
 
 
@@ -81,30 +82,15 @@ h2 {
 }
 
 #front-image {
-    height: 600px;
-    width:60%;
-    background: url('../images/front-image-m.jpg') no-repeat center center;
-    
-/* animates zoom effect on loading page */
-    animation-name: front-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
-/* creates the level of zoom for front image */
-
-@keyframes front-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+    height: 900px;
+    width: 675px;
+    background: url('../images/front-image-m3.jpg') no-repeat;
+    padding-left: 100px;
 }
 
 #cover-text {
     color: #0a0a0a;
-    font-size: 100%;
+    font-size: 90%;
     font-family: Oswald;
     font-weight:500;
     text-transform: uppercase;
