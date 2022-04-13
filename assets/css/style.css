@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500;700&family=Oswald:wght@500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 .basic {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
