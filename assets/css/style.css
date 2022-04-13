@@ -60,3 +60,12 @@ h1 {
 .active {
     border-bottom: 1px solid #0a0a0a;
 }
+
+/* front image */
+
+#front-image {
+    height: 864px;
+    width: 100%;
+    background: url('../images/front-image-m.jpg') no-repeat center center;
+    padding-left: 100px;
+}
