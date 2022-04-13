@@ -15,7 +15,7 @@
 
 /* headings and logo */  
 
-h1 {
+h1 h4 {
     font-family: "Tourney";
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -63,9 +63,37 @@ h1 {
 
 /* front image */
 
+#front-outer {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text {
+    color: #0a0a0a;
+    font-size: 90%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+    width: 900px;
+    height: 150px;
+
+    padding-left: 15px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    bottom: 30px;
+    right: 100px;
+
+    position: absolute;
+}
+
 #front-image {
     height: 864px;
     width: 100%;
-    background: url('../images/front-image-m.jpg') no-repeat center center;
-    padding-left: 100px;
+    background: url('../images/front-image-m.jpg') no-repeat center center;        
 }
