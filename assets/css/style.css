@@ -13,21 +13,12 @@
     background-color: beige;
  }
 
-.container {
-    max-width: 1140px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 /* headings and logo */  
 
 h1 {
     font-family: "Tourney";
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     color: #0a0a0a;
 }
 
@@ -38,7 +29,6 @@ h1 {
     text-align: center;
 }
 
-
 /* navigation links */
 
 #menu {
@@ -46,6 +36,10 @@ h1 {
     letter-spacing: 4px;
     margin-right: 360px;
     padding-bottom: 5px;
+}
+
+#menu, #logo{
+    line-height: 50px;
 }
 
 #menu li {
@@ -56,183 +50,13 @@ h1 {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* front image */
-
-#front-outer {
-    height: 600px;
-    width:100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
-#front-image {
-    height: 900px;
-    width: 675px;
-    background: url('../images/front-image-m3.jpg') no-repeat;
-    padding-left: 100px;
-}
-
-#cover-text {
-    color: #0a0a0a;
-    font-size: 90%;
-    font-family: Oswald;
-    font-weight:500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-
-    width: 900px;
-    height: 150px;
-
-    padding-left: 25px;
-
-    background-color: rgba(255, 255, 255, 0.5);
-   
-    bottom: 30px;
-    right: 100px;
-
-    position: absolute;
-}
-
-/* media queries */
-/* for larger and medium screen size from 1200px and down */
-
-@media screen and (max-width: 768px) {
-    #front-image {
-        width: 65%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    #cover-text {
-        text-align: center;
-        padding-right: 30px;
-        width: 65%;
-        height: auto;
-        background-color: rgba(255, 255, 255, 0.5);
-        left: 50px;
-    }
-
-    #menu {
-        text-align: center;
-        display: inline;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #drinks-and-food{
-        text-align: center;
-        clear: both;
-        padding: 0;
-        font-size: 150%;
-        margin:5px;        
-        color: #0a0a0a;
-    }
-
-}
-
-/* for medium screen sizes from 768 px and down */
-
-@media screen and (max-width: 400px) {
-    
-    #front-image {
-        width: 65%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    #cover-text {
-        text-align: center;
-        width: 65%;
-        height: 400px;
-        padding-left: 150px;
-    }
-
-    #menu {
-        text-align: center;
-        display: inline;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #drinks-and-food {
-        text-align: center;
-        clear: both;
-        padding: 0;
-        font-size: 150%;
-        margin:5px;        
-        color: #0a0a0a;         
-    }
-
-}
-
-/* footer */
-
-footer {
-    height: 100px;        
-}
-
-footer p {
-    text-align: center;
-    font-size: small;
-}
-
-.social-network {
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.social-network > li {
-    display: inline;
-}
-
-.social-network i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #0a0a0a;
-}
-
-/* contains of menu buttons */
-
-.drinks-and-food {
-    font-size: 150%;
-    margin:5px;
-    padding: 5px;
-    color: #0a0a0a;
-    text-align: center;
-}
-
-.hike {
-    font-size: 150%;
-    margin:5px;
-    padding: 5px;
-    color: #0a0a0a;
-    text-align: center; 
-}
-
-.enjoy {
-    font-size: 150%;
-    margin:5px;
-    padding: 5px;
-    color: #0a0a0a;
-    text-align: center;
+    border-bottom: 1px solid #0a0a0a;
 }
