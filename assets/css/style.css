@@ -105,8 +105,19 @@ h1 h4 {
 #front-image {
     height: 864px;
     width: 100%;
-    background: url('../images/front-image-m.jpg') no-repeat center center;        
+    background: url('../images/front-image-m.jpg') no-repeat center center;          
 }
+
+.enjoy {
+    font-size: 150%;
+    margin:5px;
+    padding: 5px;
+    padding-top: 100px;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+
 
 /* footer */
 
