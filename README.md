@@ -4,9 +4,9 @@ I took the advice of my mentor and the teachers of the Code Institute's Diploma 
 
 For link to this website click [Here](https://ksagep.github.io/First-milestone-project-Scotland/).
 
-Design has been focused to *Desktop first* and *Responsive*.
+Design has been focused to *Desktop, Laptop and Tablet first* and *Responsive* but it is also working on mobile assets.
 
-/workspace/First-milestone-project-Scotland/assets/images/screenshot-m.png
+![My Image](assets/images/am-i-responsive.jpg)
 
 ## Who is this website for?
 
@@ -25,17 +25,22 @@ This page was created in a simple way. The information is clear and serves to he
 ### Scope Plane
 
 In this project You can find the following features:
-* Four different pages
-* Home page contains a picture what I took at the 'Queen's View' and three other buttons to other pages
-* Under the logo there is a short description of the pages
+* The header and footer are common in every pages
+* Three different pages which are as follows:
+- Home page contains a picture what I took at the 'Queen's View' and two other buttons to other pages
+![My picture](assets/images/home-page.jpg)
+- Enjoy page contains pictures about drinks, foods and attractions which could visit during the trip
+![My picture](assets/images/enjoy-page.jpg)
+- Sign Up page contains the opportunity to create a contact with me and I could share some information in private session
+![My picture](assets/images/signup-page.jpg)
 
 ### Structure Plane
 
-The four pages provide various information about different themes. These provide a possibility for visitors that they could choose the most appropriate theme they would be interest in. 
+The three pages provide various information about different themes. These provide a possibility for visitors that they could choose the most appropriate theme they would be interest in. 
 
 ### Skeleton Plane
 
-Design was focused on big screen (desktop, laptop) primarily but You can use this website on mobile also.
+Design was focused on big screen (desktop, laptop) primarily but you can use this website on mobile also.
 
 ### Surface Plane
 
@@ -47,7 +52,7 @@ For navigation and footer part of the website the main aim was the big contrast 
 
 I used two types of fonts what I downloaded from the Google Fonts families:
 
-**Tourney** (weight: 500 and 700)
+**Tourney** (weight: 700)
 
 **Oswald** (weight: 500)
 
@@ -56,8 +61,7 @@ I used two types of fonts what I downloaded from the Google Fonts families:
 ### Existing Features
 
 * Created in HTML5 and CSS3
-* Four different pages
-* Short description of the pages as a recommender
+* Three different pages
 
 ### Features for future implementation
 
@@ -103,20 +107,23 @@ It was tested on  Macbook Pro, Apple iPhone 13 Pro and Samsung A6 and A10 mobile
 
 ### Validators
 
-The website was checked by W3C HTML validator and it did not reported any issues.
+The website was checked by W3C HTML validator and it did not reported any issues. You can find the result [Here](assets/images/W3C%20HTML%20assessment.jpg).
 
-The website was checked by W3C Jigsaw validator and it found one analysis problem:
-* #basic { font-family: Oswald; font-weight: 500; color: rgb(0,0,0); background-color: beige; }
-
-This problem did not affect the run of the website.
+The website was checked by W3C CSS validator and it did not reported any issues. You can find the result [Here](assets/images/W3C%20CSS%20assessment.jpg).
 
 ### Local testing
 
-The buttons of the website were tested locally and these worked properly. Size of some images did not matched with the regulations and conditions. These unmatched issues had to be fixed and after were done.
+The buttons of the website were tested locally and these worked properly.
 
 ### Responsiveness
 
-I used Google Chrome Dev Tools for this exercise. I tested for mobile and desktop devices and it worked properly. According to the tool, some images were too big for mobile devices and the downloads were slow. 
+I used Google Chrome Dev Tools for this exercise. I tested for mobile and desktop devices. According to the tool, some images were big for mobile devices and the downloads were slow.
+
+Lighthouse mobile assessment:
+![My Image](assets/images/lighthouse_mobile_assessment.jpg)
+
+Lighthouse desktop assessment:
+![My Image](assets/images/lighthouse_desktop_assessment.jpg)
 
 ## Version control
 
@@ -131,7 +138,7 @@ I managed the versions with the followung process:
     2. git commit -m "Commit message" - to commit the stage of work
     3. git push - to update my work in GitHub
 
-## Publishing
+## Publish the project
 
 The steps of the publishing on the GitHub were as follow:
     

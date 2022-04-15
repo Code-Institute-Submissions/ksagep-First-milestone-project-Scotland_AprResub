@@ -105,7 +105,8 @@ h1 h4 {
 #front-image {
     height: 864px;
     width: 100%;
-    background: url('../images/front-image-m3.jpg') no-repeat center center;          
+    background: url('../images/front-image-m.jpg') no-repeat center center;
+          
 }
 
 .enjoy {
