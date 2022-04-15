@@ -27,11 +27,17 @@ This page was created in a simple way. The information is clear and serves to he
 In this project You can find the following features:
 * The header and footer are common in every pages
 * Three different pages which are as follows:
+
 - Home page contains a picture what I took at the 'Queen's View' and two other buttons to other pages
+
 ![My picture](assets/images/home-page.jpg)
+
 - Enjoy page contains pictures about drinks, foods and attractions which could visit during the trip
+
 ![My picture](assets/images/enjoy-page.jpg)
+
 - Sign Up page contains the opportunity to create a contact with me and I could share some information in private session
+
 ![My picture](assets/images/signup-page.jpg)
 
 ### Structure Plane
